@@ -1,0 +1,92 @@
+msgid "PayPro"
+msgstr ""
+
+msgid "PayPro Settings"
+msgstr ""
+
+msgid "Configure the gateway"
+msgstr ""
+
+msgid "API Key"
+msgstr ""
+
+msgid "Enter your PayPro API Key"
+msgstr ""
+
+msgid "The Product ID is required when using MasterCard, Visa or Sofort payment methods"
+msgstr ""
+
+msgid "Product ID"
+msgstr ""
+
+msgid "Enter your PayPro Product ID"
+msgstr ""
+
+msgid "PayPro Afterpay"
+msgstr ""
+
+msgid "Afterpay"
+msgstr ""
+
+msgid "PayPro Bancontact"
+msgstr ""
+
+msgid "Bancontact"
+msgstr ""
+
+msgid "PayPro iDEAL"
+msgstr ""
+
+msgid "iDEAL"
+msgstr ""
+
+msgid "Please select a bank."
+msgstr ""
+
+msgid "PayPro Mastercard"
+msgstr ""
+
+msgid "Mastercard"
+msgstr ""
+
+msgid "PayPro PayPal"
+msgstr ""
+
+msgid "PayPal"
+msgstr ""
+
+msgid "PayPro Banktransfer"
+msgstr ""
+
+msgid "Banktransfer"
+msgstr ""
+
+msgid "PayPro Direct Debit"
+msgstr ""
+
+msgid "Direct Debit"
+msgstr ""
+
+msgid "PayPro Sofort"
+msgstr ""
+
+msgid "Sofort"
+msgstr ""
+
+msgid "PayPro Visa"
+msgstr ""
+
+msgid "Visa"
+msgstr ""
+
+msgid "There was an issue processing your payment."
+msgstr ""
+
+msgid "Payment information"
+msgstr ""
+
+msgid "Bank"
+msgstr ""
+
+msgid "Select your bank"
+msgstr ""

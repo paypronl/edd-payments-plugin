@@ -1,0 +1,112 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Digital Downloads - PayPro Gateway\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-13 07:19+0000\n"
+"PO-Revision-Date: 2020-04-13 07:22+0000\n"
+"Last-Translator: \n"
+"Language-Team: Nederlands\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.3; wp-5.4"
+
+msgid "PayPro"
+msgstr "PayPro"
+
+msgid "PayPro Settings"
+msgstr "PayPro Instellingen"
+
+msgid "Configure the gateway"
+msgstr "Stel de gateway in"
+
+msgid "API Key"
+msgstr "API Key"
+
+msgid "Enter your PayPro API Key"
+msgstr "Voer je PayPro API Key in"
+
+msgid ""
+"The Product ID is required when using MasterCard, Visa or Sofort payment "
+"methods"
+msgstr ""
+"Een Product ID is verplicht wanneer je gebruikt wilt maken van MasterCard, "
+"Visa of Sofort"
+
+msgid "Product ID"
+msgstr "Product ID"
+
+msgid "Enter your PayPro Product ID"
+msgstr "Voer je PayPro Product ID in"
+
+msgid "PayPro Afterpay"
+msgstr "PayPro Afterpay"
+
+msgid "Afterpay"
+msgstr "Afterpay"
+
+msgid "PayPro Bancontact"
+msgstr "PayPro Bancontact"
+
+msgid "Bancontact"
+msgstr "Bancontact"
+
+msgid "PayPro iDEAL"
+msgstr "PayPro iDEAL"
+
+msgid "iDEAL"
+msgstr "iDEAL"
+
+msgid "Please select a bank."
+msgstr "Selecteer a.u.b. een bank."
+
+msgid "PayPro Mastercard"
+msgstr "PayPro Mastercard"
+
+msgid "Mastercard"
+msgstr "Mastercard"
+
+msgid "PayPro PayPal"
+msgstr "PayPro PayPal"
+
+msgid "PayPal"
+msgstr "PayPal"
+
+msgid "PayPro Banktransfer"
+msgstr "PayPro Banktransfer"
+
+msgid "Banktransfer"
+msgstr "Banktransfer"
+
+msgid "PayPro Direct Debit"
+msgstr "PayPro Automatische Incasso"
+
+msgid "Direct Debit"
+msgstr "Automatische Incasso"
+
+msgid "PayPro Sofort"
+msgstr "PayPro Sofort"
+
+msgid "Sofort"
+msgstr "Sofort"
+
+msgid "PayPro Visa"
+msgstr "PayPro Visa"
+
+msgid "Visa"
+msgstr "Visa"
+
+msgid "There was an issue processing your payment."
+msgstr "Er is een probleem opgetreden bij het aanmaken van de betaling."
+
+msgid "Payment information"
+msgstr "Betaalinformatie"
+
+msgid "Bank"
+msgstr "Bank"
+
+msgid "Select your bank"
+msgstr "Selecteer een bank"
