@@ -24,15 +24,26 @@ With this plugin you easily add all PayPro payment gateways to your Easy Digital
 
 ## Installation
 
-1. In WordPress admin panel go to Plugins. Click on 'Add New'
-2. Click 'Upload Plugin', browse for downloaded 'edd-payments-plugin.zip' file and click 'Install Now'
-3. CLick 'Activate Plugin' after installation
-4. Click 'General Settings' under Plugins -> 'Easy Digital Downloads' label
-5. Make sure 'Currency' is set to 'Euros' under 'Easy Digital Downloads' -> General -> Currency
-6. Go to 'Easy Digital Downloads' -> 'Payment Gateways' -> PayPro
-7. Set your PayPro API key and Product ID in 'PayPro Settings' section
-8. Now enable the payment methods you want in 'Easy Digital Downloads' -> 'Payment Gateways' -> General section
-9. Your webshop is now ready to use PayPro gateways
+### Automatic installation
+1. In the WordPress admin panel go to **Plugins** -> **Add New**. Search for ‘PayPro Gateways – Easy Digital Downloads', and click **Install Now**.
+2. Click **Activate** after installation.
+3. Go to **General Settings** under **Plugins** -> **Easy Digital Downloads** label.
+4. Make sure **Currency** is set to **Euros (€)** under **General** -> **Currency**.
+5. Set your PayPro API key in **PayPro Settings** under **Payment Gateways** -> **PayPro** .
+6. Now enable the payment methods you want in **Payment Gateways**
+under **Payment Gateways** -> **General**.
+7. Your webshop is now ready to use PayPro gateways.
+
+### Manual installation
+1. Downalod the plugin.
+2. In the WordPress admin panel go to **Plugins** -> **Add New**. Click **Upload Plugin** to upload the plugin file, and click **Install Now**.
+3. Click **Activate** after installation.
+4. Go to **General Settings** under **Plugins** -> **Easy Digital Downloads** label.
+5. Make sure **Currency** is set to **Euros (€)** under **General** -> **Currency**.
+6. Set your PayPro API key in **PayPro Settings** under **Payment Gateways** -> **PayPro** .
+7. Now enable the payment methods you want in **Payment Gateways**
+under **Payment Gateways** -> **General**.
+8. Your webshop is now ready to use PayPro gateways.
 
 ### Support
 
