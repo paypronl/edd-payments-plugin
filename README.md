@@ -2,7 +2,7 @@
 
 # PayPro Gateways - Easy Digital Downloads
 
-[![Software License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Software License](https://img.shields.io/badge/license-GPLv2-brightgreen.svg?style=flat-square)](LICENSE)
 
 With this plugin you easily add all PayPro payment gateways to your Easy Digital Downloads webshop. Currently the plugin supports the following gateways:
 
@@ -73,4 +73,4 @@ Did you find a bug and want to report it? Create a new issue where you clearly s
 
 ## License
 
-[MIT license](http://opensource.org/licenses/MIT)
+[GPLv2](http://opensource.org/licenses/GPL-2.0)
