@@ -24,19 +24,10 @@ PayPro_EDD_Plugin::init();
  * Entry point of the plugin.
  * Handle PayPro callback
  */
-function paypro_plugin_init()
+function edd_listen_for_paypro_notification()
 {
     if (isset($_GET['edd-listener']) && $_GET['edd-listener'] === 'PAYPRO') {
-        if (isset($_GET['payment-id'])) {
-            $eddPayment = PayPro_EDD_Plugin::getSaleStatusOfPayment(intval($_GET['payment-id']));
-            if ($eddPayment) {
-                wp_send_json(['success' => true]);
-                exit;
-            }
-        }
-
-        wp_send_json(['success' => false]);
-        exit;
+        do_action('edd_paypro_notification');
     }
 }
 
@@ -101,4 +92,4 @@ function paypro_edd_plugin_activation()
 
 register_activation_hook(__FILE__, 'paypro_edd_plugin_activation');
 
-add_action('init', 'paypro_plugin_init');
+add_action('init', 'edd_listen_for_paypro_notification');

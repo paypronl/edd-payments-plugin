@@ -29,12 +29,30 @@ class PayPro_EDD_Plugin
 
         add_filter('edd_payment_gateways', array(__CLASS__, 'register_gateway_payment'));
 
+        add_action('edd_paypro_notification', array(__CLASS__,'edd_paypro_notification'));
+
         // Initialize all PayPro classes we need
         self::$settings = new PayPro_EDD_Settings();
         self::$paypro_api = new PayProApiHelper();
         self::$paypro_api->init(self::$settings->apiKey(), edd_is_test_mode());
 
         $initialized = true;
+    }
+
+    /**
+     * Callback function that gets called when PayPro redirects back to the site
+     */
+    public static function edd_paypro_notification() {
+        if (isset($_GET['payment-id'])) {
+            $eddPayment = self::getSaleStatusOfPayment(intval($_GET['payment-id']));
+            if ($eddPayment) {
+                wp_send_json(['success' => true]);
+                exit;
+            }
+        }
+
+        wp_send_json(['success' => false]);
+        exit;
     }
 
     /**
