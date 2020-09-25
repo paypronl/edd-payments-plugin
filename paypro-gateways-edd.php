@@ -17,8 +17,19 @@ require_once('includes/paypro/edd/autoload.php');
 
 load_plugin_textdomain('paypro-gateways-edd', false, 'paypro-gateways-edd/languages');
 
-PayPro_EDD_Autoload::register();
-PayPro_EDD_Plugin::init();
+paypro_plugin_init();
+
+/**
+ * Checks if Woocommerce is active, autoloads classes and initializes the plugin.
+ */
+function paypro_plugin_init()
+{
+    if(in_array('easy-digital-downloads/easy-digital-downloads.php', apply_filters('active_plugins', get_option( 'active_plugins'))) || class_exists('EasyDigitalDownloads'))
+    {
+        PayPro_EDD_Autoload::register();
+        PayPro_EDD_Plugin::init();
+    }
+}
 
 /**
  * Entry point of the plugin.
