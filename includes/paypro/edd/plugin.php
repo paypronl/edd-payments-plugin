@@ -4,7 +4,7 @@ class PayPro_EDD_Plugin
 {
     const PLUGIN_ID = 'paypro-gateways-edd';
     const PLUGIN_TITLE = 'PayPro Gateways - Easy Digitial Downloads';
-    const PLUGIN_VERSION = '1.0.3';
+    const PLUGIN_VERSION = '1.0.4';
 
     public static $paypro_api;
     public static $settings;

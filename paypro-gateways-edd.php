@@ -4,7 +4,7 @@
  * Plugin Name: PayPro Gateways - Easy Digital Downloads
  * Plugin URI: https://www.paypro.nl/
  * Description: With this plugin you easily add all PayPro payment gateways to your Easy Digital Downloads webshop.
- * Version: 1.0.3
+ * Version: 1.0.4
  * Author: PayPro
  * Author URI: https://www.paypro.nl/
  * Text Domain: paypro-gateways-edd

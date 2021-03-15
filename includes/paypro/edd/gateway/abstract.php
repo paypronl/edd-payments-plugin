@@ -45,7 +45,7 @@ abstract class PayPro_EDD_Gateway_Abstract
 			$callbackUrl = get_site_url() . '/?edd-listener=PAYPRO&payment-id=' . $eddPaymentID;
 
 			$payment = PayPro_EDD_Plugin::$paypro_api->createPayment([
-				'amount' => round($payment['price'], 2) * 100,
+				'amount' => (int) (round($payment['price'] * 100, 0)),
 				'pay_method' => $this->getPayMethod(),
 				'return_url' => $redirectUrl,
 				'cancel_url' => $redirectUrl,
