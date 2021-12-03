@@ -11,10 +11,9 @@ With this plugin you easily add all PayPro payment gateways to your Easy Digital
 - Banktransfer
 - Direct Debit
 - iDEAL
-- Mastercard
+- Creditcard
 - PayPal
 - Sofort
-- Visa
 
 ## Requirements
 
