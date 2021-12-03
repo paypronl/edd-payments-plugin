@@ -74,7 +74,15 @@ abstract class PayPro_EDD_Gateway_Abstract
 			}
 		}
 
-		edd_set_error( 'edd_paypro_gateway_error', __('There was an issue processing your payment.', 'paypro-gateways-edd'));
+        switch ($payment['message']) {
+            case PayPro_EDD_Plugin::$paypro_api->PAYPRO_API_RES_NOT_SUBSCRIBED:
+                $error_msg = sprintf(__( '%s is not subscribed to this payment method, please try a different method.', 'paypro-gateways-edd'), get_bloginfo('name'));
+                break;
+            default:
+                $error_msg = __('There was an issue processing your payment.', 'paypro-gateways-edd');
+                break;
+        }
+		edd_set_error( 'edd_paypro_gateway_error', $error_msg);
 		edd_send_back_to_checkout('?payment-mode=' . $purchaseData['post_data']['edd-gateway']);
 	}
 
