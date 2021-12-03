@@ -75,7 +75,7 @@ abstract class PayPro_EDD_Gateway_Abstract
 		}
 
         switch ($payment['message']) {
-            case PayPro_EDD_Plugin::$paypro_api->PAYPRO_API_RES_NOT_SUBSCRIBED:
+            case PayPro_EDD_Plugin::$paypro_api::PAYPRO_API_RES_NOT_SUBSCRIBED:
                 $error_msg = sprintf(__( '%s is not subscribed to this payment method, please try a different method.', 'paypro-gateways-edd'), get_bloginfo('name'));
                 break;
             default:
