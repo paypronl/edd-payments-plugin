@@ -29,13 +29,6 @@ msgstr "API Key"
 msgid "Enter your PayPro API Key"
 msgstr "Voer je PayPro API Key in"
 
-msgid ""
-"The Product ID is required when using MasterCard, Visa or Sofort payment "
-"methods"
-msgstr ""
-"Een Product ID is verplicht wanneer je gebruikt wilt maken van MasterCard, "
-"Visa of Sofort"
-
 msgid "Product ID"
 msgstr "Product ID"
 
