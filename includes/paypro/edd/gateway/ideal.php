@@ -46,7 +46,7 @@ class PayPro_EDD_Gateway_Ideal extends PayPro_EDD_Gateway_Abstract
 					<span class="edd-required-indicator">*</span>
 				</label>
 				<select name="paypro_gateway_ideal_issuer" class="edd-select required" required>
-					<option value=""><?php _e('Select your bank', 'paypro-gateways-edd'); ?></option>
+					<option value="" hidden><?php _e('Select your bank', 'paypro-gateways-edd'); ?></option>
 					<?php foreach ($issuers['issuers'] as $issuer) { ?>
 						<option value="<?php echo $issuer['id']; ?>"><?php echo $issuer['name']; ?></option>
 					<?php } ?>
