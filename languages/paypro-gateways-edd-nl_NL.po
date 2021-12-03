@@ -102,6 +102,9 @@ msgstr "Visa"
 msgid "There was an issue processing your payment."
 msgstr "Er is een probleem opgetreden bij het aanmaken van de betaling."
 
+msgid "%s is not subscribed to this payment method, please try a different method."
+msgstr "%s is niet geabonneerd op deze betaalmethode, probeer dan een andere methode."
+
 msgid "Payment information"
 msgstr "Betaalinformatie"
 
