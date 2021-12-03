@@ -120,7 +120,7 @@ class PayPro_EDD_Plugin
                 new PayPro_EDD_Gateway_BankTransfer(),
                 new PayPro_EDD_Gateway_DirectDebit(),
                 new PayPro_EDD_Gateway_Ideal(),
-                new PayPro_EDD_Gateway_Creditcard(),
+                new PayPro_EDD_Gateway_Mastercard(),
                 new PayPro_EDD_Gateway_Mistercash(),
                 new PayPro_EDD_Gateway_Paypal(),
                 new PayPro_EDD_Gateway_Sofort(),

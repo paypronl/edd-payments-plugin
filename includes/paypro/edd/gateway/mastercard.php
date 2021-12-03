@@ -1,8 +1,8 @@
 <?php if(!defined('ABSPATH')) exit; // Exit if accessed directly
 
-class PayPro_EDD_Gateway_Creditcard extends PayPro_EDD_Gateway_Abstract
+class PayPro_EDD_Gateway_Mastercard extends PayPro_EDD_Gateway_Abstract
 {
-	protected $id = 'paypro_creditcard';
+	protected $id = 'paypro_mastercard';
 
 	public function getAdminLabel() {
 		return __('PayPro Creditcard', 'paypro-gateways-edd');
@@ -13,6 +13,6 @@ class PayPro_EDD_Gateway_Creditcard extends PayPro_EDD_Gateway_Abstract
 	}
 
 	public function getPayMethod() {
-		return 'creditcard';
+		return 'creditcard/mastercard';
 	}
 }
