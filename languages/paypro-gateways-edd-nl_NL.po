@@ -29,13 +29,6 @@ msgstr "API Key"
 msgid "Enter your PayPro API Key"
 msgstr "Voer je PayPro API Key in"
 
-msgid ""
-"The Product ID is required when using MasterCard, Visa or Sofort payment "
-"methods"
-msgstr ""
-"Een Product ID is verplicht wanneer je gebruikt wilt maken van MasterCard, "
-"Visa of Sofort"
-
 msgid "Product ID"
 msgstr "Product ID"
 
@@ -63,11 +56,11 @@ msgstr "iDEAL"
 msgid "Please select a bank."
 msgstr "Selecteer a.u.b. een bank."
 
-msgid "PayPro Mastercard"
-msgstr "PayPro Mastercard"
+msgid "PayPro Creditcard"
+msgstr "PayPro Creditcard"
 
-msgid "Mastercard"
-msgstr "Mastercard"
+msgid "Creditcard"
+msgstr "Creditcard"
 
 msgid "PayPro PayPal"
 msgstr "PayPro PayPal"
@@ -92,12 +85,6 @@ msgstr "PayPro Sofort"
 
 msgid "Sofort"
 msgstr "Sofort"
-
-msgid "PayPro Visa"
-msgstr "PayPro Visa"
-
-msgid "Visa"
-msgstr "Visa"
 
 msgid "There was an issue processing your payment."
 msgstr "Er is een probleem opgetreden bij het aanmaken van de betaling."

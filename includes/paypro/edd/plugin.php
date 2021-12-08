@@ -102,11 +102,6 @@ class PayPro_EDD_Plugin
 				'size'       => 'regular'
             ),
             array(
-				'id'         => self::getSettingId('product-id-help'),
-				'desc'       => __('The Product ID is required when using MasterCard, Visa or Sofort payment methods', 'paypro-gateways-edd'),
-				'type'       => 'descriptive_text',
-            ),
-            array(
                 'id'         => self::getSettingId('product-id'),
                 'name'       => __('Product ID', 'paypro-gateways-edd'),
                 'desc'       => __('Enter your PayPro Product ID', 'paypro-gateways-edd'),
@@ -129,7 +124,6 @@ class PayPro_EDD_Plugin
                 new PayPro_EDD_Gateway_Mistercash(),
                 new PayPro_EDD_Gateway_Paypal(),
                 new PayPro_EDD_Gateway_Sofort(),
-                new PayPro_EDD_Gateway_Visa(),
             );
         }
 
