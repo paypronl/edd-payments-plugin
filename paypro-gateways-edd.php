@@ -28,6 +28,7 @@ function paypro_plugin_init()
     {
         PayPro_EDD_Autoload::register();
         PayPro_EDD_Plugin::init();
+        add_filter('plugin_action_links_' . plugin_basename(__FILE__), 'paypro_plugin_wc_action_links');
     }
 }
 
@@ -40,6 +41,16 @@ function edd_listen_for_paypro_notification()
     if (isset($_GET['edd-listener']) && $_GET['edd-listener'] === 'PAYPRO') {
         do_action('edd_paypro_notification');
     }
+}
+
+/**
+ * Add action links to paypro plugin 
+ */
+function paypro_plugin_wc_action_links($links) {
+    $paypro_links = array(
+        '<a href="'.admin_url('edit.php?post_type=download&page=edd-settings&tab=gateways&section=paypro').'"> Settings </a>'
+        );
+    return array_merge($paypro_links, $links);
 }
 
 /**
