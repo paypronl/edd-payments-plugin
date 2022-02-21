@@ -1,6 +1,6 @@
 <?php if(!defined('ABSPATH')) exit; // Exit if accessed directly
 
-class PayPro_EDD_Gateway_Visa extends PayPro_EDD_Gateway_Product
+class PayPro_EDD_Gateway_Visa extends PayPro_EDD_Gateway_Abstract
 {
 	protected $id = 'paypro_visa';
 
